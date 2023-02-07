@@ -24,21 +24,26 @@
         
         </div>
         <div class="navBar">
+
           <div class="navBtn">
           <a href="#About">About</a>
           </div>
+
           <div class="navBtn">
           <a href="#Services">Services</a>
-          
           </div>
+
           <div class="navBtn">
           <a href="#Projects">Projects</a>
-          
           </div>
+
           <div class="navBtn">
           <a href="#Contacts">Contact</a>
-          
           </div>
+
+        </div>
+        <div class="hamburg">
+          <img src="./images/icon-hamburger.svg">
         </div>
         
     </div>
@@ -47,15 +52,19 @@
         <h1>WE ARE CREATIVES</h1>
       </div>
       <div class="arrow">
-        <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrowImg">
+        <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrowImg" onclick="menu()">
       </div>
     </div>
 
   </header>
+
+
+
+
   <main>
     <div class="content">
       <div class="post">
-        <div class="postText">
+        <div id="a1" class="postText">
           <div class="postContainer">
             <h1>Transform your brand</h1>
             <p>We are a full-service creative agency specializing in helping brands grow fast. 
@@ -66,83 +75,119 @@
           </div>
 
         </div>
-        <div class="postPhoto">
-          <img class="photoContent" src="./images/desktop/image-transform.jpg" alt="egg">
+        <div id="a2" class="postPhoto">
+          <img id="egg" class="photoContent" src="./images/desktop/image-transform.jpg" alt="egg">
 
         </div>
       </div>
       <div class="post">
         <div class="postPhoto">
-          <img class="photoContent" src="./images/desktop/image-stand-out.jpg" alt="egg">
+          <img id="b1" id="standout" class="photoContent" src="./images/desktop/image-stand-out.jpg" alt="egg">
 
         </div>
-        <div class="postText">
+        <div id="b2" class="postText">
           <div class="postContainer">
             <h1>Stand out to the right audience</h1>
             <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. </p>
-            <a href="#Learn">Learn more</a>
+            <a href="#Learn" id="learnRed">Learn more</a>
           </div>
         </div>
       </div>
-      <div class="postPover">
-        <div class="postPhoto">
-          <img class="photoContent" src="./images/desktop/image-graphic-design.jpg" alt="egg">
+      <div class="postContainerP">
+        <div class="photoContent">
+          <img id="cery" class="postPhoto" src="./images/desktop/image-graphic-design.jpg" alt="egg">
           <div class="textInP">
-
+            <div class="textInPost2">
+              <h2>Graphic design</h2>
+              <p>Great design makes you memorable. We deliver artwork that underscores your 
+                brand message and captures potential clients’ attention.</p>
+            </div>
           </div>
 
         </div>
-        <div class="postPhoto">
-          <img class="photoContent" src="./images/desktop/image-photography.jpg" alt="egg">
+        <div class="photoContent">
+          <img id="orange" class="postPhoto" src="./images/desktop/image-photography.jpg" alt="egg">
           <div class="textInP">
-            
+            <div class="textInPost2">
+              <h2>Photography</h2>
+              <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+              </p>
+            </div>
           </div>
-
         </div>
-
-
-
-
       </div>
+      <div class="testimonialeContent">
+        <div class="testimonialeH">
+          <h2>Client testimonials</h2>
+        </div>
+          <div class="testimonialePosts">
+            <div class="testimonialePost">
+              <div class="testimonialeAvatar">
+                  <img src="./images/image-emily.jpg" alt="emily">
+              </div>
+              <div class="testimonialeText">
+                <p>We put our trust in Sunnyside and they delivered, making sure our needs 
+                  were met and deadlines were always hit.
+                </p>
+              </div>
+              <div class="testimonialeFooter">
+                <h3>Emily R.</h3>
+                <p>Marketing Director</p>
+              </div>
+            </div>
+            <div class="testimonialePost">
+              <div class="testimonialeAvatar">
+                  <img src="./images/image-thomas.jpg" alt="thomas">
+              </div>
+              <div class="testimonialeText">
+                <p>Sunnyside’s enthusiasm coupled with their 
+                  keen interest in our brand’s success made it a 
+                  satisfying and enjoyable experience.
+                </p>
+              </div>
+              <div class="testimonialeFooter">
+                <h3>Thomas S.</h3>
+                <p>Chief Operating Officer</p>
+              </div>
+            </div>
+            <div class="testimonialePost">
+              <div class="testimonialeAvatar">
+                  <img src="./images/image-jennie.jpg" alt="jennie">
+              </div>
+              <div class="testimonialeText">
+                <p>Incredible end result! Our sales increased over 
+                  400% when we worked with Sunnyside. Highly 
+                  recommended!
+                </p>
+              </div>
+              <div class="testimonialeFooter">
+                <h3>Jennie F.</h3>
+                <p>Business Owner</p>
+              </div>
+            </div>
 
 
+        </div>
 
-
-
-
-
-
-
-
-
-
-
+        
+      </div>
+      <div class="footerPhotos">
+        <div class="footerPhotosRow">
+          <div class="footerPhoto">
+            <img id="milk" src="./images/desktop/image-gallery-milkbottles.jpg" alt="milk">
+          </div>
+          <div class="footerPhoto">
+            <img id="orange2" src="./images/desktop/image-gallery-orange.jpg" alt="orange">
+          </div>
+          <div class="footerPhoto">
+            <img id="cone" src="./images/desktop/image-gallery-cone.jpg" alt="cone">
+          </div>
+          <div class="footerPhoto">
+            <img id="sugar" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="sugar">
+          </div>
+        </div>
+      </div>
     </div>
-
-    
-  <!--
-   
-  
-    Graphic design
-    Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-  
-    Photography
-    Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
-  
-    Client testimonials
-  
-    We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
-    Emily R.
-    Marketing Director
-  
-    Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
-    Thomas S.
-    Chief Operating Officer
-  
-    Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
-    Jennie F.
-    Business Owner
-  -->
 
 
   </main>
@@ -150,11 +195,34 @@
 
   
   <footer>
-    <div class="elements">
-  About
-  Services
-  Projects
-  Contact
+    <div class="footerContainer">
+      <div class="footerLogo">
+        <img src="./images/logo.svg" alt="footerlogo">
+      </div>
+      <div class="elements">
+        <div class="element">
+          About
+        </div>
+        <div class="element">
+          Services
+        </div>
+        <div class="element">
+          Projects
+        </div>
+        <div class="element">
+          Contact
+        </div>
+      </div>
+      <div class="social">
+        
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        
+
+      </div>
+ 
     </div>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
