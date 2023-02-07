@@ -37,14 +37,20 @@
           <a href="#Projects">Projects</a>
           </div>
 
-          <div class="navBtn">
+          <div id="contact" class="navBtn">
           <a href="#Contacts">Contact</a>
           </div>
 
         </div>
-        <div class="hamburg">
-          <img src="./images/icon-hamburger.svg">
-        </div>
+      <div class="hamburg">
+      
+          <img src="./images/icon-hamburger.svg" alt="menu" onclick="menuOpen()">
+          
+      </div>
+      
+
+      </div>
+    
         
     </div>
     <div class="msg">
@@ -52,9 +58,32 @@
         <h1>WE ARE CREATIVES</h1>
       </div>
       <div class="arrow">
-        <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrowImg" onclick="menu()">
+        <img src="./images/icon-arrow-down.svg" alt="arrow" class="arrowImg" onclick="scrollDown()">
       </div>
     </div>
+    <div id="menu" class="menuBg">
+      <div class="navBarMobile">
+
+        <div class="navBtnMobile">
+        <a href="#About">About</a>
+        </div>
+
+        <div class="navBtnMobile">
+        <a href="#Services">Services</a>
+        </div>
+
+        <div class="navBtnMobile">
+        <a href="#Projects">Projects</a>
+        </div>
+
+        <div id="contactMobile" class="navBtnMobile">
+        <a href="#Contacts">Contact</a>
+        </div>
+
+    </div>
+    </div>
+    
+    
 
   </header>
 
@@ -225,9 +254,10 @@
  
     </div>
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Vasiliu Ilie-Cristian</a>.</p>>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
